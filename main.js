@@ -5,3 +5,4 @@ const tartalomElem=document.getElementById(".Tartalom")
 const szereplokElem=document.getElementById(".szereplok")
 
 let list=[]
+

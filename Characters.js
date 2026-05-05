@@ -1,7 +1,16 @@
 import { Szereplok } from "./Character.js";
 
 export default class Characters{
-
+constructor(nev,height,mass,hair_color,skin_color,eye_color,birth_year,gender){
+    this.nev=nev
+    this.height=height
+    this.mass=mass
+    this.hair_color=hair_color
+    this.skin_color=skin_color
+    this.eye_color=eye_color
+    this.birth_year=birth_year
+    this.gender=gender
+}
 megjelemites(){
 let kod=`
     <div class="szereplok">
